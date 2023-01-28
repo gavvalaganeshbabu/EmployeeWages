@@ -15,8 +15,8 @@ namespace EmployeeWages
             if (n == 0)
             {
                 Console.WriteLine(name + " Is Present Today");
-                Console.WriteLine("Calculating Employee Wages Per Day :");
-                Console.WriteLine(CalculateWagePerDay());
+                Console.WriteLine("Calculating Employee Wages Per Day : "+ CalculateWagePerDay());
+                
             }
             else { 
             Console.WriteLine(name+" is Absent Today");
