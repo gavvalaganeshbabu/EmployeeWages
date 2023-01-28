@@ -14,13 +14,14 @@ namespace EmployeeWages
             int n=rnd.Next(0,2);
             if (n == 0)
             {
-                Console.WriteLine(name + " Is Absent Today");
+                Console.WriteLine(name + " Is Present Today");
+                Console.WriteLine(CalculateWagePerDay());
             }
             else { 
-            Console.WriteLine(name+" is Present Today");
+            Console.WriteLine(name+" is Absent Today");
             }
             Console.WriteLine("Calculating Employee Wages Per Day :");
-            Console.WriteLine(CalculateWagePerDay());
+            
         }
         public static int CalculateWagePerDay() {
             int WagePerday = 20;
