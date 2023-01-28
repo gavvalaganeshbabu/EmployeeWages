@@ -18,6 +18,9 @@ namespace EmployeeWages
             else { 
             Console.WriteLine(name+" is Present Today");
             }
+            Console.WriteLine("Calculating Wage Per Day :");
+            
         }
+        
     }
 }
