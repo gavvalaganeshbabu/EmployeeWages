@@ -7,7 +7,7 @@ namespace EmployeeWages
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To EmployeeWage Computation :");
-            Console.WriteLine("Calculating Monthly Full-Time And  Part Wages By Using Switch Case :");
+            Console.WriteLine("Calculating Monthly Full-Time And  Part-Time Wages By Using Switch Case :");
             Console.WriteLine("Enter Employee Name :");
             Random rnd = new Random();
             string name = Console.ReadLine();
