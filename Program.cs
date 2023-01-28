@@ -19,6 +19,8 @@ namespace EmployeeWages
             else { 
             Console.WriteLine(name+" is Present Today");
             }
+            Console.WriteLine("Calculating Employee Wages Per Day :");
+            Console.WriteLine(CalculateWagePerDay());
         }
         public static int CalculateWagePerDay() {
             int WagePerday = 20;
