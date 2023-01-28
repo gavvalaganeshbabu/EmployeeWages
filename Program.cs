@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Security.Cryptography.X509Certificates;
 
 namespace EmployeeWages
 {
@@ -18,6 +19,11 @@ namespace EmployeeWages
             else { 
             Console.WriteLine(name+" is Present Today");
             }
+        }
+        public static int CalculateWagePerDay() {
+            int WagePerday = 20;
+            int WagePerHour = 8;
+            return (WagePerday*WagePerHour);
         }
     }
 }
