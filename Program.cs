@@ -17,18 +17,18 @@ namespace EmployeeWages
             int PartTimeHour = 4;
             if (n == 0)
             {
-                Console.WriteLine(name+" is Absent Today : ");
-                Console.WriteLine(name + " Wages = 0 $");
-            }
-            else if (n == 1)
-            {
                 Console.WriteLine(name + " is Present FullDay :");
                 Console.WriteLine(name + " Wage = " + WagePerHour * FullDayHour + " $");
             }
-            else
+            else if (n == 1)
             {
                 Console.WriteLine(name + " is Present Today and Worked partime :");
                 Console.WriteLine("Employee Wage = " + WagePerHour * PartTimeHour + " $");
+            }
+            else
+            {
+                Console.WriteLine(name + " is Absent Today : ");
+                Console.WriteLine(name + " Wages = 0 $");             
             }
         }      
     }
