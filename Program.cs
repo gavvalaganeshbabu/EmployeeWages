@@ -13,10 +13,10 @@ namespace EmployeeWages
             int n=rnd.Next(0,2);
             if (n == 0)
             {
-                Console.WriteLine(name + " Is Absent Today");
+                Console.WriteLine(name + " is Present Today");               
             }
-            else { 
-            Console.WriteLine(name+" is Present Today");
+            else {
+                Console.WriteLine(name + " Is Absent Today");
             }
         }
     }
