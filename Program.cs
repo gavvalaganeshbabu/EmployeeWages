@@ -17,7 +17,7 @@ namespace EmployeeWages
             int PartTimeHour = 4;
             if (n == 0)
             {
-                Console.WriteLine("Employee is Absent Today : ");
+                Console.WriteLine(name+" is Absent Today : ");
                 Console.WriteLine(name + " Wages = 0 $");
             }
             else if (n == 1)
