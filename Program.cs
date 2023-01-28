@@ -7,10 +7,7 @@ namespace EmployeeWages
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To EmployeeWage Computation :");
-            
-
-            
-        }
-        
+                     
+        }      
     }
 }
